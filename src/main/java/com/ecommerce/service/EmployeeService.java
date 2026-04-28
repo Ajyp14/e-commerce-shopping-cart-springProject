@@ -8,4 +8,5 @@ public interface EmployeeService {
 	Employee saveEmployee(Employee employee);
 	public List<Employee> getAllEmployees();
 	public Employee getEmpById(int id);
+	public Employee updateEmployee(Employee employee,int id);
 }
